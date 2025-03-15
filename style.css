@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pt-header {
+    margin-top: 80px;
+}
+
+:root {
+    --header-height: 72px; /* ارتفاع هدر برای دسکتاپ */
+}
+
+@media (max-width: 768px) {
+    :root {
+        --header-height: 64px; /* ارتفاع هدر برای موبایل */
+    }
+}
+
+header {
+    height: var(--header-height);
+}
+
+#about {
+    padding-top: calc(var(--header-height) + 24px); /* کمی فاصله بیشتر برای زیبایی */
+}
+
+.farsi-text {
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+
+body {
+    direction: ltr;
+    text-align: left;
+}

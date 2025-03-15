@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md flex items-center justify-between p-4 md:flex-row z-10">
+        <h1 class="text-xl font-bold text-blue-600 mx-auto md:mx-0">Personal Resume</h1>
+        <nav class="hidden md:flex space-x-6">
+            <a href="#about" class="hover:text-blue-600">About Me</a>
+            <a href="#skills" class="hover:text-blue-600">Skills</a>
+            <a href="#experience" class="hover:text-blue-600">Experience</a>
+            <a href="#projects" class="hover:text-blue-600">Projects</a>
+            <a href="#education" class="hover:text-blue-600">Education</a>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <button id="menu-btn" class="md:hidden text-blue-600 text-2xl">☰</button>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-3/4 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 md:hidden">
+        <button id="close-btn" class="text-2xl absolute right-4 top-4">✖</button>
+        <nav class="flex flex-col space-y-4 p-6">
+            <a href="#about" class="text-lg hover:text-blue-600">About Me</a>
+            <a href="#skills" class="text-lg hover:text-blue-600">Skills</a>
+            <a href="#experience" class="text-lg hover:text-blue-600">Experience</a>
+            <a href="#projects" class="text-lg hover:text-blue-600">Projects</a>
+            <a href="#education" class="text-lg hover:text-blue-600">Education</a>
+            <a href="#contact" class="text-lg hover:text-blue-600">Contact</a>
+        </nav>
+    </div>
+    <!-- About Section -->
+    <section id="about" class="pt-24 text-center ltr pt-header md:pt-32">
+        <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+            <img src="assets/mypf1.jpg" alt="Profile Picture" class="w-52 h-52 mx-auto rounded-full shadow-md border-4 border-blue-500 animate__animated animate__zoomIn">
+            <h2 class="text-3xl font-semibold mt-4 text-gray-800">Amir Mohammad Ghazanfari</h2>
+            <p class="text-lg text-gray-600">Software Developer | Android Engineer</p>
+            <p class="max-w-2xl mx-auto mt-3 text-gray-700 leading-relaxed">
+                Passionate Android developer dedicated to crafting innovative, user-centric mobile applications. 
+                With a strong focus on performance, scalability, and seamless user experiences, I take pride in building solutions that make a real impact. 
+                Constantly seeking growth, I view challenges as opportunities to push boundaries, refine my skills, and stay at the forefront of mobile development.
+            </p>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+<section id="skills" class="mt-12 text-center ltr" data-aos="fade-up">
+    <h3 class="text-3xl font-semibold text-blue-700">Skills</h3>
+    <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6 px-4">
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Kotlin</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Java</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Jetpack Compose</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">MVVM</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">MVI, MVP, MVC</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Retrofit</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Coroutines & Flow</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Room Database</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Hilt & Dagger & Koin</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Git, GitHub, GitLab</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">ExoPlayer, File Handling</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">REST API, Postman</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Material Design Components</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Charts, Lottie, Neomorphism</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">WorkManager, BroadcastReceivers</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg shadow-md text-sm font-medium animate__animated animate__fadeIn">Push Notifications, Firebase</span>
+    </div>
+</section>
+<!-- Experience Section -->
+<section id="experience" class="mt-12 text-center" data-aos="fade-up">
+    <h3 class="text-3xl font-semibold text-blue-700">Work Experience</h3>
+    <div class="max-w-3xl mx-auto mt-6 text-left">
+        <div class="bg-white shadow-lg rounded-2xl p-6 border border-gray-200 animate__animated animate__fadeInUp">
+            <h4 class="text-xl font-semibold text-blue-600">Android Developer</h4>
+            <p class="text-gray-700 text-sm">Novin Dade Pardaz Faraz Abri – Tehran, Iran</p>
+            <p class="text-gray-600 text-sm">December 2024 – March 2024</p>
+            <ul class="list-disc list-inside mt-4 text-gray-700 text-sm leading-relaxed pl-4">
+                <li>Collaborated closely with the backend team utilizing Node.js, ensuring seamless API integration and efficient data exchange.</li>
+                <li>Optimized API integration by leveraging Retrofit, enhancing data retrieval performance and minimizing network latency.</li>
+                <li>Implemented modern architectures, including MVVM, to ensure scalability, maintainability, and efficient separation of concerns.</li>
+                <li>Enhanced data flow management using Kotlin Flow and Coroutines, improving responsiveness and real-time data handling.</li>
+                <li>Utilized Dagger-Hilt for dependency injection, reducing boilerplate code and improving modularity across the application.</li>
+                <li>Integrated Navigation Component, ensuring smooth user transitions and structured navigation flow.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="mt-12 text-center" data-aos="fade-up">
+    <h3 class="text-3xl font-semibold text-blue-700">Education</h3>
+    <div class="max-w-3xl mx-auto mt-5 bg-white shadow-lg rounded-2xl p-6 text-left border border-gray-200 animate__animated animate__fadeInUp">
+        <h4 class="text-xl font-semibold text-blue-600">Shamsipour Technical and Vocational College</h4>
+        <p class="text-gray-700 text-sm mt-2">Bachelor's Degree in Software Engineering</p>
+        <p class="text-gray-600 text-sm mt-1">Current GPA: 18.14</p>
+        <p class="text-gray-600 text-sm mt-1">Currently enrolled in the 3rd semester.</p>
+        <p class="text-gray-600 text-sm mt-3 leading-relaxed">
+            Shamsipour Technical and Vocational College is one of Iran's top institutions specializing in Software Engineering and Information Technology. With a strong focus on practical training, the college prepares students with hands-on experience for the industry.
+        </p>
+        <div class="mt-4 text-sm text-gray-500">
+            <p><strong>Address:</strong> 123 Example Street, Tehran, Iran</p>
+            <p><strong>Phone:</strong> +98 21 1234 5678</p>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="mt-12 text-center" data-aos="fade-up">
+    <h3 class="text-3xl font-semibold text-blue-700">Projects</h3>
+    <div class="max-w-4xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- NPM Hackathon -->
+        <div class="bg-white shadow-lg rounded-2xl p-4 text-left border border-gray-200 animate__animated animate__fadeInUp">
+            <h4 class="text-xl font-semibold text-blue-600">NPM Hackathon</h4>
+            <p class="text-gray-700 text-sm mt-2">A security-focused application developed during the Sharif University NPM Hackathon.</p>
+            <ul class="text-gray-600 text-sm mt-2 list-disc pl-4">
+                <li>Malicious link detection and threat notification</li>
+                <li>Spam filtering and message classification</li>
+                <li>Secure OTP management with fingerprint authentication</li>
+            </ul>
+            <p class="text-gray-500 text-xs mt-1">Year: 2024</p>
+        </div>
+
+                <!-- Aram Cade -->
+        <div class="bg-white shadow-lg rounded-2xl p-4 text-left border border-gray-200 animate__animated animate__fadeInUp">
+            <h4 class="text-xl font-semibold text-blue-600">Aram Cade</h4>
+            <p class="text-gray-700 text-sm mt-2">A mindfulness app designed for relaxation and stress relief.</p>
+            <ul class="text-gray-600 text-sm mt-2 list-disc pl-4">
+                <li>Real-time updates using Live Data, Coroutines, and Flow</li>
+                <li>Dependency Injection with Hilt for modularity</li>
+                <li>Modern UI with Material Design Components</li>
+            </ul>
+            <p class="text-gray-500 text-xs mt-1">Year: 2024</p>
+        </div>
+        
+
+        <!-- Crypto Pulse -->
+        <div class="bg-white shadow-lg rounded-2xl p-4 text-left border border-gray-200 animate__animated animate__fadeInUp">
+            <h4 class="text-xl font-semibold text-blue-600">Crypto Pulse</h4>
+            <p class="text-gray-700 text-sm mt-2">A real-time cryptocurrency tracker displaying top 10 coins, live charts, and news.</p>
+            <ul class="text-gray-600 text-sm mt-2 list-disc pl-4">
+                <li>Real-time price tracking</li>
+                <li>Dynamic price charts with Spark</li>
+                <li>Seamless API integration using Retrofit</li>
+            </ul>
+            <p class="text-gray-500 text-xs mt-1">Year: 2024</p>
+            <a href="https://github.com/amirchi007/CryptoPulse" class="text-blue-500 hover:text-blue-700 underline mt-3 inline-block">View on GitHub</a>
+        </div>
+        
+  <!-- Tasty Tracker -->
+  <div class="bg-white shadow-lg rounded-2xl p-4 text-left border border-gray-200 animate__animated animate__fadeInUp">
+    <h4 class="text-xl font-semibold text-blue-600">Tasty Tracker</h4>
+    <p class="text-gray-700 text-sm mt-2">A food tracking app with CRUD operations and search functionality.</p>
+    <ul class="text-gray-600 text-sm mt-2 list-disc pl-4">
+        <li>Food management with add, edit, and delete options</li>
+        <li>Search functionality for quick access</li>
+        <li>Built with MVP architecture</li>
+    </ul>
+    <p class="text-gray-500 text-xs mt-1">Year: 2022</p>
+    <a href="https://github.com/amirchi007/food" class="text-blue-500 hover:text-blue-700 underline mt-3 inline-block">View on GitHub</a>
+</div>
+
+        <!-- Wikipedia -->
+        <div class="bg-white shadow-lg rounded-2xl p-4 text-left border border-gray-200 animate__animated animate__fadeInUp">
+            <h4 class="text-xl font-semibold text-blue-600">Wikipedia</h4>
+            <p class="text-gray-700 text-sm mt-2">A Wikipedia-style app with structured navigation and an optimized UI.</p>
+            <ul class="text-gray-600 text-sm mt-2 list-disc pl-4">
+                <li>Optimized UI with Material Design</li>
+                <li>Seamless navigation with Navigation Component</li>
+                <li>Responsive design for various screen sizes</li>
+            </ul>
+            <p class="text-gray-500 text-xs mt-1">Year: 2023</p>
+            <a href="https://github.com/amirchi007/Wikipedia" class="text-blue-500 hover:text-blue-700 underline mt-3 inline-block">View on GitHub</a>
+        </div>
+        
+
+    </div>
+</section>
+
+  <!-- Contact Section -->
+  <h3 class="text-2xl font-bold text-blue-600 text-center mt-8">Get in Touch</h3>
+  <section id="contact" class="mt-6 text-center py-6 px-8 bg-white rounded-lg shadow-md mx-auto border border-gray-300 max-w-lg" data-aos="fade-up">
+      <p class="text-lg text-gray-700 mt-2"><strong>Email:</strong> <a href="mailto:amghira1@gmail.com" class="text-blue-500 hover:text-blue-700 underline">amghira1@gmail.com</a></p>
+      <p class="text-lg text-gray-700"><strong>GitHub:</strong> <a href="https://github.com/amirchi007" class="text-blue-500 hover:text-blue-700 underline">github.com/amirchi007</a></p>
+      <p class="text-lg text-gray-700"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amirchi007" class="text-blue-500 hover:text-blue-700 underline">linkedin.com/in/amirchi007</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-12 text-center text-gray-600 text-sm py-4 bg-gray-100 rounded-t-lg border-t border-gray-300" data-aos="fade-up">
+    © 2025 All Rights Reserved.
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init();
+    });
+</script>
+
+</body>
+</html>

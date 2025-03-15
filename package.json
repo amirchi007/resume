@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Description: This is my personal website showcasing my portfolio, projects, and skills. Built with HTML, CSS, JavaScript, and Tailwind CSS, it offers a clean and responsive design for a seamless user experience. Explore my work, get in touch, and feel free to check out the source code!  🔗 Live Demo: [Your Website Link] 🚀",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.14"
+  }
+}
